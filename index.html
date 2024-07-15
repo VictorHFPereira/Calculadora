@@ -11,7 +11,7 @@
         <h1>Calculadora</h1>
     </header>
 
-    <form>
+    <div id="form">
         <input type="number" id="n1" placeholder="Digite o primeiro número"><br><br>
         <select id="selector">
             <option value="+">+</option>
@@ -19,13 +19,21 @@
             <option value="*">*</option>
             <option value="/">/</option>
         </select><br><br>
-        <input type="number" id="n1" placeholder="Digite o segundo número"><br><br>
-        <button>Calcular</button>
-    </form>
+        <input type="number" id="n2" placeholder="Digite o segundo número"><br><br>
+        <button onclick="calcular()">Calcular</button>
+    </div>
     <div>
         <h3 id="resultado"></h3>
     </div>
 
-    <p id="me">Feito por Victor Hugo</p>
+
+<script src="./scripts/script.js"></script>
 </body>
+
+
+<footer>
+    <p id="me">Feito por Victor Hugo</p>
+</footer>
+
+
 </html>
