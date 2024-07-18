@@ -1,3 +1,4 @@
+<!--declaração dos links-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,14 +8,17 @@
     <title>Calculadora</title>
 </head>
 
-<body>
 
+<body>
+    <!--TEXTO DA PÁGINA-->
     <header>   
         <h1>Calculadora</h1>
     </header>
 
+<!--INPUT DO PRIMEIRO NÚMERO DA OPERAÇÃO MATEMÁTICA-->
         <main id="form">
             <input type="number" id="n1" placeholder="Digite o primeiro número"><br><br>
+<!--SELETOR DE OPERAÇÃO-->
             <select id="selector">
                 <option value="+">+</option>
                 <option value="-">-</option>
@@ -23,14 +27,16 @@
                 <option value="^">^</option>
                 <option value="%">%</option>
             </select><br><br>
+<!--INPUT DO SEGUNDO NÚMERO DA OPERAÇÃO MATEMÁTICA-->
             <input type="number" id="n2" placeholder="Digite o segundo número"><br><br>
+<!--BOTÃO PARA CALCULAR A OPERAÇÃO MATEMÁTICA-->
             <button onclick="calcular()">Calcular</button>
         </main>
-
+<!--TEXTO PARA EXIBIR RESULTADO DO CÁLCULO-->
         <div>
             <h3 id="resultado"></h3>
         </div>
-
+<!--RODAPÉ COM INFORMAÇÕES ADICIONAIS-->
     <footer>
         <p id="me">Feito por Victor Hugo</p>
     </footer>
