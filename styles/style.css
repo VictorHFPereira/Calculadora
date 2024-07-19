@@ -14,13 +14,15 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 header{
     width: 100%;
     padding:10px;
-    background-color: #fcfe81;
+    background-color: #0044CC;
+    color: white;
     text-align: center;
 }
 
@@ -42,27 +44,41 @@ input, select, button{
 
 select{
     width: 60px;
+    color: #0044CC;
+    background-color: #E0E7FF;
+    
+
 }
 
+select:focus {
+    border-color: #0044CC;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 68, 204, 0.5);
+}
+
+
+
 input{
-    background-color: #b2ffcc;
+    background-color: #E0E7FF;
 }
 
 button{
     width: 150px;
-    background-color: #b8cd91;
-    color:white;
+    background-color: #28A745;
+    color:rgb(0, 0, 0);
     border: none;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: rgb(0, 82, 0);
+    background-color: #1E7B34;
 } 
 
 footer{
     width: 100%;
     padding: 10px;
+    background-color: #0044CC;
+    color: white;
     text-align: center;
 
 }
