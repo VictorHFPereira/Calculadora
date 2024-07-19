@@ -1,1 +1,1 @@
-Os valores de potenciação e divisão estão programados para apresentar resultados com duas casas decimais.
+Todos os resultados das operações estão programados para devolverem valores com apenas duas casas decimais!
